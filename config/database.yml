@@ -20,8 +20,15 @@ test:
 # Production : PostgreSQL
 production:
   primary: &production_primary
+    adapter: postgresql
+    encoding: unicode
     url: <%= ENV["DATABASE_URL"] %>
     pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+    database: <%= ENV.fetch("DB_NAME", "studylink_production") %>
+    host: <%= ENV.fetch("DB_HOST", "localhost") %>
+    port: <%= ENV.fetch("DB_PORT", 5432) %>
+    username: <%= ENV.fetch("DB_USER", "postgres") %>
+    password: <%= ENV["DB_PASSWORD"] %>
   cache:
     <<: *production_primary
     migrations_paths: db/cache_migrate
