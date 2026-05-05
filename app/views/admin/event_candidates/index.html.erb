@@ -57,8 +57,8 @@
                 <% if candidate.organizer.present? %>
                   <span><i class="fas fa-building mr-1"></i><%= candidate.organizer %></span>
                 <% end %>
-                <% if candidate.external_url.present? %>
-                  <%= link_to candidate.external_url, target: "_blank", class: "text-primary hover:underline" do %>
+                <% if (external_url = safe_external_url(candidate.external_url)) %>
+                  <%= link_to external_url, target: "_blank", rel: "noopener noreferrer", class: "text-primary hover:underline" do %>
                     <i class="fas fa-external-link-alt mr-1"></i>Voir sur Eventbrite
                   <% end %>
                 <% end %>

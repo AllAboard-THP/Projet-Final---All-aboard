@@ -1,5 +1,17 @@
 module ApplicationHelper
   include Pagy::Frontend
+
+  def safe_external_url(url)
+    return if url.blank?
+
+    parsed = URI.parse(url)
+    return unless parsed.is_a?(URI::HTTP) && parsed.host.present?
+
+    parsed.to_s
+  rescue URI::InvalidURIError
+    nil
+  end
+
   def relative_time(timestamp)
     diff = Time.current - timestamp
 
