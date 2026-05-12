@@ -145,11 +145,23 @@ lea = upsert_user(
   rating: 4.1
 )
 
+# Compte technique : admin + mentor + toutes les matières (accès complet au site en démo).
+master = upsert_user(
+  email: "master@studylink.test", password: "Master!1AllAboard",
+  full_name: "Master plateforme",
+  headline: "Administration & mentorat — accès intégral",
+  education_level: "N/A",
+  bio: "Compte de démonstration : même pouvoir qu'un admin, statut mentor et compétences sur toutes les matières.",
+  avatar_url: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100&h=100&fit=crop",
+  role: "admin", mentor: true, rating: 5.0
+)
+
 # ——— COMPÉTENCES MENTORS ———
 
 lucas.competences = Subject.where(slug: %w[javascript ruby-rails html-css])
 sofia.competences  = Subject.where(slug: %w[python intelligence-artificielle bases-de-donnees algorithmique])
 kevin.competences  = Subject.where(slug: %w[devops-cloud cybersecurite])
+master.competences = Subject.all
 
 # ——— POSTS ———
 
@@ -827,6 +839,7 @@ puts "  ┌───────────────────────
 puts "  │ Email                        │ Mot de passe    │ Rôle                 │"
 puts "  ├──────────────────────────────┼─────────────────┼──────────────────────┤"
 puts "  │ admin@studylink.test         │ Admin1234!      │ Admin                │"
+puts "  │ master@studylink.test        │ Master!1AllAboard │ Admin + mentor + toutes matières │"
 puts "  │ lucas@studylink.test         │ Lucas1234!      │ Mentor JS/Rails      │"
 puts "  │ sofia@studylink.test         │ Sofia1234!      │ Mentor Python/IA     │"
 puts "  │ kevin@studylink.test         │ Kevin1234!      │ Mentor DevOps/Sécu   │"
@@ -839,7 +852,7 @@ puts "  │ lea@studylink.test           │ Lea12345!       │ Étudiante DUT 
 puts "  └──────────────────────────────┴─────────────────┴──────────────────────┘"
 puts ""
 puts "  Données :"
-puts "  - #{Subject.count} matières  •  #{User.count} utilisateurs (1 admin, 3 mentors, 6 étudiants)"
+puts "  - #{Subject.count} matières  •  #{User.count} utilisateurs (2 comptes admin dont master, 3 mentors, 6 étudiants)"
 puts "  - #{Post.count} posts  •  #{Comment.count} commentaires  •  #{Like.count} likes  •  #{Bookmark.count} bookmarks"
 puts "  - #{Resource.count} ressources pédagogiques"
 puts "  - #{Event.count} événements tech"
@@ -847,7 +860,7 @@ puts "  - #{Conversation.count} conversations  •  #{Message.count} messages"
 puts "  - #{SubjectRequest.count} demandes de matières"
 puts ""
 puts "  Comptes existants (hors demo) préservés : #{User.where.not(email: %w[
-  admin@studylink.test lucas@studylink.test sofia@studylink.test kevin@studylink.test
+  admin@studylink.test master@studylink.test lucas@studylink.test sofia@studylink.test kevin@studylink.test
   hugo@studylink.test camille@studylink.test thomas@studylink.test marie@studylink.test
   romain@studylink.test lea@studylink.test
 ]).count}"
