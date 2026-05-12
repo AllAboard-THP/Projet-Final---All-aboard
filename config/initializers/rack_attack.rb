@@ -48,3 +48,17 @@ class Rack::Attack
     end
   end
 end
+
+# Rack::Attack utilise Rails.cache par défaut. En production, Rails.cache est Solid Cache
+# (base PostgreSQL séparée, table solid_cache_entries). Si cette base n'est pas migrée ou
+# absente, le throttle sur POST /users/sign_in lève une erreur avant Devise.
+# Les compteurs de rate limiting utilisent donc un store dédié (pas le fragment cache app).
+Rack::Attack.cache.store =
+  if Rails.env.local?
+    ActiveSupport::Cache::MemoryStore.new
+  else
+    ActiveSupport::Cache::FileStore.new(
+      Rails.root.join("tmp/cache/rack_attack"),
+      expires_in: 2.days
+    )
+  end
