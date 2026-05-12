@@ -21,7 +21,6 @@ gem "faraday"
 gem "pagy", "~> 8.0"
 gem "rack-attack"
 gem "nokogiri"
-gem "letter_opener"
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"

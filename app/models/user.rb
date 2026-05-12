@@ -19,7 +19,7 @@ class User < ApplicationRecord
   AVATAR_CONTENT_TYPES = %w[image/jpeg image/png image/webp].freeze
 
   validate :avatar_image_valid, if: -> { avatar_image.attached? && avatar_image.changed? }
-  PASSWORD_REGEX    = /\A(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z\d])/
+  PASSWORD_REGEX    = /\A(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z\d]).+\z/
 
   validates :full_name, presence: true
   validates :email, format: { with: VALID_EMAIL_REGEX, message: "n'est pas une adresse valide" }
