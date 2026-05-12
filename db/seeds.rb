@@ -739,6 +739,9 @@ Resource.create!(
 ].each { |attrs| Event.create!(attrs) }
 
 # ——— CONVERSATIONS ———
+# Pas de broadcast Turbo / Solid Cable pendant le seed (évite ArgumentError: No unique index found for id).
+Message.suppress_broadcasts = true
+begin
 
 conv1 = Conversation.find_or_create_direct!(sender: hugo, recipient: lucas, topic: posts[0].title)
 [
@@ -797,6 +800,10 @@ conv5 = Conversation.find_or_create_direct!(sender: lea, recipient: sofia, topic
 ].each { |u, b, t| Message.create!(conversation: conv5, user: u, body: b, created_at: t, updated_at: t) }
 conv5.mark_read_for!(lea)
 conv5.conversation_participants.find_by!(user: sofia).update!(last_read_at: 1.hour.ago)
+
+ensure
+  Message.suppress_broadcasts = false
+end
 
 # ——— SUBJECT REQUESTS ———
 

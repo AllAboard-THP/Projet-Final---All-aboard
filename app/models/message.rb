@@ -1,6 +1,9 @@
 class Message < ApplicationRecord
   include ActionView::RecordIdentifier
 
+  # Désactivé pendant db:seed (broadcast_append_to / Solid Cable → upsert sans index unique fiable).
+  class_attribute :suppress_broadcasts, default: false
+
   belongs_to :conversation, touch: true
   belongs_to :user
 
@@ -8,7 +11,7 @@ class Message < ApplicationRecord
 
   validates :body, presence: true, unless: -> { attachment.attached? }
 
-  after_create_commit :broadcast_to_conversation
+  after_create_commit :broadcast_to_conversation, unless: -> { suppress_broadcasts }
 
   def as_chat_json
     {
