@@ -1,8 +1,31 @@
-#!/usr/bin/env ruby
-require "rubygems"
-require "bundler/setup"
+#!/usr/bin/env bash
+set -euo pipefail
 
-# Explicit RuboCop config increases performance slightly while avoiding config confusion.
-ARGV.unshift("--config", File.expand_path("../.rubocop.yml", __dir__))
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-load Gem.bin_path("rubocop", "rubocop")
+if command -v ruby >/dev/null 2>&1; then
+  exec ruby "${SCRIPT_DIR}/rubocop.rb" "$@"
+fi
+
+if ! command -v docker >/dev/null 2>&1; then
+  echo "Error: ruby is not installed and docker is unavailable." >&2
+  exit 127
+fi
+
+CONTAINERS="$(docker ps --format '{{.Names}}' | awk '/website-railsfullstack-/')"
+
+if [[ -z "${CONTAINERS}" ]]; then
+  echo "Error: ruby is not installed and no running Rails container was found." >&2
+  exit 127
+fi
+
+LAST_ERROR=""
+for CONTAINER_NAME in ${CONTAINERS}; do
+  if docker exec "${CONTAINER_NAME}" sh -lc 'cd /rails && bin/rubocop "$@"' sh "$@"; then
+    exit 0
+  fi
+  LAST_ERROR="Failed to run RuboCop in container: ${CONTAINER_NAME}"
+done
+
+echo "${LAST_ERROR}" >&2
+exit 1

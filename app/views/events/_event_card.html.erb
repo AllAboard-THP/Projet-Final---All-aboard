@@ -33,8 +33,8 @@
       </div>
     </div>
 
-    <% if event.external_url.present? %>
-      <%= link_to event.external_url, target: "_blank", class: "shrink-0 px-3 py-2 bg-accent/20 hover:bg-accent/30 text-accent rounded-lg text-xs font-medium transition-colors" do %>
+    <% if (external_url = safe_external_url(event.external_url)) %>
+      <%= link_to external_url, target: "_blank", rel: "noopener noreferrer", class: "shrink-0 px-3 py-2 bg-accent/20 hover:bg-accent/30 text-accent rounded-lg text-xs font-medium transition-colors" do %>
         S'inscrire <i class="fas fa-external-link-alt ml-1"></i>
       <% end %>
     <% end %>

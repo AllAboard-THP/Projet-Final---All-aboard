@@ -1,0 +1,790 @@
+{
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/channels/conversation_channel.rb": {
+    "mtime": 1777982305.33241,
+    "hash": "c89e2145174b535d1afce21ba97c2850"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/channels/application_cable/channel.rb": {
+    "mtime": 1777982305.33241,
+    "hash": "e10b046bdcfb33d1a2c2a38b3236c1a4"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/channels/application_cable/connection.rb": {
+    "mtime": 1777982305.33241,
+    "hash": "5b65a890603cd8fdbc234304f14c903b"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/admin_setup_controller.rb": {
+    "mtime": 1777982305.33241,
+    "hash": "1a0574cee991a4d887163f9cce1339fb"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/application_controller.rb": {
+    "mtime": 1777982305.3334103,
+    "hash": "e016a7490d26e51e659868e1d2d16bea"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/bookmarks_controller.rb": {
+    "mtime": 1777982305.3334103,
+    "hash": "566b1153443f37b7f210aad15c1e4843"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/comments_controller.rb": {
+    "mtime": 1777982305.3334103,
+    "hash": "88bc4e8fcdbf1de1afce3f97382bad85"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/conversations_controller.rb": {
+    "mtime": 1777982305.3334103,
+    "hash": "f71d920ed2fe350155b4c68a04e77975"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/events_controller.rb": {
+    "mtime": 1777982305.3334103,
+    "hash": "4609e96c65a5d5ab184a9eef885ca8b7"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/explore_controller.rb": {
+    "mtime": 1777982305.3334103,
+    "hash": "c9127c95601c153912b3e109ce57c300"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/feed_controller.rb": {
+    "mtime": 1777982305.3334103,
+    "hash": "725989cd0149ce4c3a1a1fad5fc21b7f"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/home_controller.rb": {
+    "mtime": 1777982305.3334103,
+    "hash": "e056ef06098f35e25e96168364109801"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/legal_controller.rb": {
+    "mtime": 1777982305.3334103,
+    "hash": "11264355e730add75c02ea4335a6abe7"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/likes_controller.rb": {
+    "mtime": 1777982305.3334103,
+    "hash": "38601f20c10c20aed3cd04412cae4b7f"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/messages_controller.rb": {
+    "mtime": 1777982305.3334103,
+    "hash": "48f106b8e4795d9c6ddb639b17822d27"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/my_bookmarks_controller.rb": {
+    "mtime": 1777982305.3334103,
+    "hash": "dab44ac43cf5e607c30a45a0965da4c5"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/my_posts_controller.rb": {
+    "mtime": 1777982305.3334103,
+    "hash": "778d176a26f405dc3e2b60dc7131a0d2"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/posts_controller.rb": {
+    "mtime": 1777982305.3344104,
+    "hash": "1031088992a96ce3985f75fe67918b33"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/resources_controller.rb": {
+    "mtime": 1777982305.3344104,
+    "hash": "804ac0de18c7b5131f644bc8afeb3167"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/subject_requests_controller.rb": {
+    "mtime": 1777982305.3344104,
+    "hash": "ee1e1d18901f94b64c2017a9e8657c50"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/users_controller.rb": {
+    "mtime": 1777982305.3344104,
+    "hash": "19c089c26f853a0dc41e538452bd6fba"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/admin/admins_controller.rb": {
+    "mtime": 1777982305.33241,
+    "hash": "59f8e10d92f66bc999acdf092d5ad511"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/admin/base_controller.rb": {
+    "mtime": 1777982305.33241,
+    "hash": "6745488f3e87fc2ed4bc0351efa51f0b"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/admin/dashboard_controller.rb": {
+    "mtime": 1777982305.33241,
+    "hash": "bbc78f1e83f39239c8fe53a9bd0ed5e8"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/admin/denylist_patterns_controller.rb": {
+    "mtime": 1777982305.33241,
+    "hash": "f124ee5212a344eb6fe201a6e922832b"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/admin/event_candidates_controller.rb": {
+    "mtime": 1777982305.33241,
+    "hash": "5967b898bc6cae456c57001d6dad7d5a"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/admin/events_controller.rb": {
+    "mtime": 1777982305.33241,
+    "hash": "ddae20c1efbba640b67c7ca29d1a39c5"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/admin/messages_controller.rb": {
+    "mtime": 1777982305.33241,
+    "hash": "5e5e2605014220952ac961c211bcbaf8"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/admin/moderation_controller.rb": {
+    "mtime": 1777982305.33241,
+    "hash": "66322419f5b77a34c0edb4790b78b404"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/admin/posts_controller.rb": {
+    "mtime": 1777982305.33241,
+    "hash": "5730749107dd93214bc9a77719dd18f6"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/admin/resources_controller.rb": {
+    "mtime": 1777982305.33241,
+    "hash": "6251957763092c49bebe1b93464ef052"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/admin/subject_requests_controller.rb": {
+    "mtime": 1777982305.33241,
+    "hash": "5e4751969b929c75cfeb9b00c22803b0"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/admin/users_controller.rb": {
+    "mtime": 1777982305.33241,
+    "hash": "0126d447a8f8fdd1ba00f4862be79acb"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/concerns/post_replaceable.rb": {
+    "mtime": 1777982305.3334103,
+    "hash": "25082169020b6e2c461520e5b88a652d"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/mentor/base_controller.rb": {
+    "mtime": 1777982305.3334103,
+    "hash": "8da24b38bfa6f530c389ebeedc3913e1"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/mentor/dashboard_controller.rb": {
+    "mtime": 1777982305.3334103,
+    "hash": "5c48ef2ac9c0d11ef3d9d9cf77d999a2"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/mentor/resources_controller.rb": {
+    "mtime": 1777982305.3334103,
+    "hash": "1f36010ef0b19b05318f16a40afed3d7"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/users/confirmations_controller.rb": {
+    "mtime": 1777982305.3344104,
+    "hash": "eb5968fb80fa76fcbcd656b2f2ec6784"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/controllers/users/registrations_controller.rb": {
+    "mtime": 1777982305.3344104,
+    "hash": "98aede50f68f085d152d32268c37d778"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/helpers/application_helper.rb": {
+    "mtime": 1777982305.3344104,
+    "hash": "810aacb613ca03a04b65914b7cab4ee6"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/helpers/home_helper.rb": {
+    "mtime": 1777982305.3344104,
+    "hash": "c00aacaefe53d7290aa7380e60299f27"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/javascript/application.js": {
+    "mtime": 1777982305.3344104,
+    "hash": "cd88d3d3f60831d97c0861881c10c4c0"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/javascript/cable.js": {
+    "mtime": 1777982305.3344104,
+    "hash": "ea90af691646a14e041ea0f2b30fc56e"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/javascript/react_mount.js": {
+    "mtime": 1777982305.3354104,
+    "hash": "d87c2d39fdee0e1d3f637ab64e559471"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/javascript/components/chat/ChatApp.jsx": {
+    "mtime": 1777982305.3344104,
+    "hash": "bc95a807b5dfd9b9633ac59feb059f44"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/javascript/components/code_editor/CodeEditor.jsx": {
+    "mtime": 1777982305.3344104,
+    "hash": "4aaaf4269874486fa55f4fb6a0789398"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/javascript/components/feed/FeedFilters.jsx": {
+    "mtime": 1777982305.3344104,
+    "hash": "85b1b6d19c738c7baf3390e12c6f8b11"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/javascript/components/post_form/PostForm.jsx": {
+    "mtime": 1777982305.3344104,
+    "hash": "0ae8462ab8ac503f1c17959ef6281b56"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/javascript/controllers/application.js": {
+    "mtime": 1777982305.3344104,
+    "hash": "e99511ba6b1056659bed1f0083cae290"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/javascript/controllers/conversation_messages_controller.js": {
+    "mtime": 1777982305.3344104,
+    "hash": "ca26f26ec7ea910fb754713f6a951120"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/javascript/controllers/flash_controller.js": {
+    "mtime": 1777982305.3354104,
+    "hash": "e98cadda1cda34d5b09eaeca77d93921"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/javascript/controllers/hello_controller.js": {
+    "mtime": 1777982305.3354104,
+    "hash": "2db0903d9e3b79bbeecc33a188ba3655"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/javascript/controllers/index.js": {
+    "mtime": 1777982305.3354104,
+    "hash": "a3a68247a27f0ff831e7a05c420ed29c"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/javascript/controllers/message_form_controller.js": {
+    "mtime": 1777982305.3354104,
+    "hash": "d03cfc8a2f3a0904e0085a68705a7c60"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/javascript/controllers/modal_controller.js": {
+    "mtime": 1777982305.3354104,
+    "hash": "6496d0463d9c99902a7373eb4a612447"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/javascript/controllers/tag_suggest_controller.js": {
+    "mtime": 1777982305.3354104,
+    "hash": "fc0885f4cc8554498fbde784df6e22e9"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/javascript/controllers/track_view_controller.js": {
+    "mtime": 1777982305.3354104,
+    "hash": "e8403fbd8aafa9f5dcf1cbe6667d3f7f"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/jobs/application_job.rb": {
+    "mtime": 1777982305.3354104,
+    "hash": "bdecd79f2c18f1519c7d39f08ba41ea9"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/jobs/fetch_tech_events_job.rb": {
+    "mtime": 1777982305.3354104,
+    "hash": "9a37809c4f00593cb543f3dd7cdeaaa0"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/jobs/generate_post_summary_job.rb": {
+    "mtime": 1777982305.3354104,
+    "hash": "09ee01253a0f6f5a3f0b595355d28fcf"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/mailers/application_mailer.rb": {
+    "mtime": 1777982305.3354104,
+    "hash": "99aa816ab212ac8e075e3d166ce3483b"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/mailers/notification_mailer.rb": {
+    "mtime": 1777982305.3354104,
+    "hash": "7a9e3b2ba02f4f3768e0af6bc55b56cd"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/models/application_record.rb": {
+    "mtime": 1777982305.3354104,
+    "hash": "8061f2304feb5db0f90c9086b9c30377"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/models/bookmark.rb": {
+    "mtime": 1777982305.3354104,
+    "hash": "75926d4588d2be2df58cbe9534714c09"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/models/comment.rb": {
+    "mtime": 1777982305.3354104,
+    "hash": "c112394379a415ba36e66f625b06789a"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/models/conversation.rb": {
+    "mtime": 1777982305.3364105,
+    "hash": "c6a9625ff02392dc50c8cc08df047ced"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/models/conversation_participant.rb": {
+    "mtime": 1777982305.3364105,
+    "hash": "043e11439d7eb71b360b932e1e203082"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/models/denylist_pattern.rb": {
+    "mtime": 1777982305.3364105,
+    "hash": "44c7b6a566f3a49ac2b3ad5ef7512ace"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/models/event.rb": {
+    "mtime": 1777982305.3364105,
+    "hash": "a30853973e7be91ce781c08fa0139714"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/models/event_candidate.rb": {
+    "mtime": 1777982305.3364105,
+    "hash": "6d5f60081864b1075b70429e42acaaa4"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/models/like.rb": {
+    "mtime": 1777982305.3364105,
+    "hash": "dc864c4f757edf21508fb49bab0ffbc9"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/models/mentor_subject.rb": {
+    "mtime": 1777982305.3364105,
+    "hash": "d23e6939b3ccff5adcc5974e72ef5622"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/models/message.rb": {
+    "mtime": 1777982305.3364105,
+    "hash": "986f06683d6ee4cbccc8a48afe8c46c5"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/models/post.rb": {
+    "mtime": 1777982305.3364105,
+    "hash": "cb0d5ac4b3ae06421525d26cb7232488"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/models/post_tag.rb": {
+    "mtime": 1777982305.3364105,
+    "hash": "70c675c5571d7c05b5cfaf1f4fea7b17"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/models/resource.rb": {
+    "mtime": 1777982305.3364105,
+    "hash": "329b3965a41c274a1c0d16833a061816"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/models/resource_tag.rb": {
+    "mtime": 1777982305.3364105,
+    "hash": "e735d882b6b3d6439c4c80f6afa9e8b9"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/models/subject.rb": {
+    "mtime": 1777982305.3364105,
+    "hash": "f086b5d1b21533647d1df03b44b01f33"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/models/subject_request.rb": {
+    "mtime": 1777982305.3364105,
+    "hash": "9b55b3343373b88a5abd094920fa4dd2"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/models/tag.rb": {
+    "mtime": 1777982305.3364105,
+    "hash": "d07592ab8419628d49748ec10dfabd79"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/models/user.rb": {
+    "mtime": 1777982305.3364105,
+    "hash": "96b500f688dcb80401e026d745909f2e"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/models/concerns/profanity_filter.rb": {
+    "mtime": 1777982305.3354104,
+    "hash": "e00dd21364a364b520d9a0b8db74aaa1"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/models/concerns/taggable.rb": {
+    "mtime": 1777982305.3364105,
+    "hash": "5ad52f69347f3c0e2167eb086784bc7c"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/services/ai_moderation_service.rb": {
+    "mtime": 1777982305.3364105,
+    "hash": "c37bd531577a551d22c98d91870ec775"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/services/ai_tag_suggestion_service.rb": {
+    "mtime": 1777982305.3374107,
+    "hash": "9d28d477445709f5bfbd140695f4b412"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/services/claude_events_service.rb": {
+    "mtime": 1777982305.3374107,
+    "hash": "03a062798bea235de8ac0999b7a88ac0"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/services/claude_service.rb": {
+    "mtime": 1777982305.3374107,
+    "hash": "087782ff18e984c889d7722e6197186b"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/views/pwa/service-worker.js": {
+    "mtime": 1777982305.342411,
+    "hash": "49b10a997a05647d532a4c887bc4b638"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/bin/brakeman": {
+    "mtime": 1777982305.3434112,
+    "hash": "82cb3dbadc459d6bd17e925f41e1d6ae"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/bin/bundler-audit": {
+    "mtime": 1777982305.3434112,
+    "hash": "521135682876d5e8417a7e315e37a1d4"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/bin/ci": {
+    "mtime": 1777982305.3434112,
+    "hash": "21bfe5ac3d72b770bbb9345bc8370465"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/bin/dev": {
+    "mtime": 1777982305.3434112,
+    "hash": "9ad04869a9d587b7055b9d6919a18ea1"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/bin/docker-entrypoint": {
+    "mtime": 1777982305.3434112,
+    "hash": "c6438651dd0247f29003dd01ec94d729"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/bin/jobs": {
+    "mtime": 1777982305.3434112,
+    "hash": "324928bc1570b292c7c5ae1762021351"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/bin/kamal": {
+    "mtime": 1777982305.3434112,
+    "hash": "9a7c4b24fa43213bae7a75e944d623a4"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/bin/rails": {
+    "mtime": 1777982305.3434112,
+    "hash": "39ebb68cb694fcb19c823a0397db68cb"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/bin/rake": {
+    "mtime": 1777982305.3434112,
+    "hash": "f11d7990ef3d1c932f028eff9afc6d07"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/bin/rubocop": {
+    "mtime": 1777982305.3434112,
+    "hash": "555db9c565c3e91614a2e51a39e21c0d"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/bin/setup": {
+    "mtime": 1777982305.3434112,
+    "hash": "fbf88c51338babda52a0b25fe4edc80d"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/bin/thrust": {
+    "mtime": 1777982305.3434112,
+    "hash": "563b8e1528a22320a51b373c0d159717"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/application.rb": {
+    "mtime": 1777982305.3434112,
+    "hash": "d88f11306d42a9a174c702a5970031de"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/boot.rb": {
+    "mtime": 1777982305.3434112,
+    "hash": "590009f4b8daf822d34925fc6490b45c"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/ci.rb": {
+    "mtime": 1777982305.3444111,
+    "hash": "6c85dbf4f64754ca66d6243a77a1cb56"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/environment.rb": {
+    "mtime": 1777982305.3444111,
+    "hash": "57710249dabbe1ea548ccdd50da08335"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/puma.rb": {
+    "mtime": 1777982305.3454113,
+    "hash": "68bc20972f773f2f496be49122f06ea4"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/routes.rb": {
+    "mtime": 1777982305.3454113,
+    "hash": "f6adb4dac8007374fcbf994c9355dc05"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/environments/development.rb": {
+    "mtime": 1777982305.3444111,
+    "hash": "6d0e1335fb2e7e617d061f37f81a0e7c"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/environments/production.rb": {
+    "mtime": 1777982305.3444111,
+    "hash": "3e8d82c3c9635ad7bfcfd0a1f1ba17b8"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/environments/test.rb": {
+    "mtime": 1777982305.3444111,
+    "hash": "868bcb35d5f6fd4ebf4f4fb948f9fb5c"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/initializers/assets.rb": {
+    "mtime": 1777982305.3444111,
+    "hash": "6b5c9cd62bad48501e734ceeba7109e3"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/initializers/content_security_policy.rb": {
+    "mtime": 1777982305.3444111,
+    "hash": "be7f7d9c5d38ceb0aef35f98643794a1"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/initializers/devise.rb": {
+    "mtime": 1777982305.3454113,
+    "hash": "faf71b35e036b180ab026892c917db9a"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/initializers/filter_parameter_logging.rb": {
+    "mtime": 1777982305.3454113,
+    "hash": "ef938a9d5e85b7c14e3c18e1c9577fcd"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/initializers/inflections.rb": {
+    "mtime": 1777982305.3454113,
+    "hash": "4d8360e6000fde0c58ac3e2fbc50ba95"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/initializers/pagy.rb": {
+    "mtime": 1777982305.3454113,
+    "hash": "81eb475abc5e4b9d9504877cbaadc6b9"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/initializers/rack_attack.rb": {
+    "mtime": 1777982305.3454113,
+    "hash": "4b261af3e11f6fffe9958fa780bfbe4c"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/cable_schema.rb": {
+    "mtime": 1777982305.3454113,
+    "hash": "eafcac9f33d7f8158909f706c11641dd"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/cache_schema.rb": {
+    "mtime": 1777982305.3454113,
+    "hash": "25ba477bc823a503da187c2dd7de2d63"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/queue_schema.rb": {
+    "mtime": 1777982305.3474116,
+    "hash": "c2cae5fa7cdd3890257f5f24ddaf1530"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/schema.rb": {
+    "mtime": 1777982305.3474116,
+    "hash": "ff9d30f989d98b2edc92624d5ad8bbfa"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/seeds.rb": {
+    "mtime": 1777982305.3474116,
+    "hash": "eb9928b54ebd8d67fa7c442cde0f817d"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260312152642_devise_create_users.rb": {
+    "mtime": 1777982305.3454113,
+    "hash": "49a3945c5c35e306aa38e3fc5cee22d5"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260312152651_create_subjects.rb": {
+    "mtime": 1777982305.3454113,
+    "hash": "4515c074f681ed9fce675eb8a6e12f3a"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260312152652_create_tags.rb": {
+    "mtime": 1777982305.3454113,
+    "hash": "fc1e59f60920b2d30a28f64b09e13d0e"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260312152653_create_post_tags.rb": {
+    "mtime": 1777982305.3464115,
+    "hash": "d26c18ef4a20e5d8fb2a30ffeb81c9d5"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260312152654_create_posts.rb": {
+    "mtime": 1777982305.3464115,
+    "hash": "11dab4136e55c69c1922168b63fdbae7"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260312152656_create_bookmarks.rb": {
+    "mtime": 1777982305.3464115,
+    "hash": "bd31367a13add6ef508bfa0ee6071087"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260312152657_create_conversations.rb": {
+    "mtime": 1777982305.3464115,
+    "hash": "c0da4d0b2b69676d16d121453423674a"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260312152658_create_comments.rb": {
+    "mtime": 1777982305.3464115,
+    "hash": "b096874bc12f76801d8d0a40c47c7595"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260312152700_create_likes.rb": {
+    "mtime": 1777982305.3464115,
+    "hash": "0f818ce228dfe363b26b0aca1df0dc4b"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260312152703_create_conversation_participants.rb": {
+    "mtime": 1777982305.3464115,
+    "hash": "9902ecd713a9daf57bd7b8021381308a"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260312152704_create_messages.rb": {
+    "mtime": 1777982305.3464115,
+    "hash": "510077117cd68e4a63f6cd48203a73e7"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260317000000_add_role_to_users.rb": {
+    "mtime": 1777982305.3464115,
+    "hash": "b67baa7db2eb70708b121acdca0f3ea9"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260317140447_create_subject_requests.rb": {
+    "mtime": 1777982305.3464115,
+    "hash": "9cbbe925956f1002300cbca9b5b1a854"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260317143252_create_active_storage_tables.active_storage.rb": {
+    "mtime": 1777982305.3464115,
+    "hash": "b1b2c6338ffe12720c2d1d559b407bec"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260319133710_add_cgu_accepted_at_to_users.rb": {
+    "mtime": 1777982305.3464115,
+    "hash": "a0b2fdf81103d36ff07d1c758c98751f"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260323214841_add_mentor_to_users.rb": {
+    "mtime": 1777982305.3464115,
+    "hash": "67e90c6e25df039c6d80b8ee01177b77"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260323214842_create_resources.rb": {
+    "mtime": 1777982305.3464115,
+    "hash": "4414606ea2eed166ab6107543ae19217"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260325100001_create_event_candidates.rb": {
+    "mtime": 1777982305.3464115,
+    "hash": "b92dba2b8c4cae31aa1fb24c9ae18c6b"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260325100002_create_events.rb": {
+    "mtime": 1777982305.3464115,
+    "hash": "6f7e0d343655e1d888495737fb119757"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260327000001_add_confirmable_to_users.rb": {
+    "mtime": 1777982305.3464115,
+    "hash": "92f9bcd7b4a01ec3b6eb2675d8085d7f"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260327000002_add_notification_preferences_to_users.rb": {
+    "mtime": 1777982305.3464115,
+    "hash": "2ad962e0a51d750e12fdf56c9c0a68c9"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260327000003_create_mentor_subjects.rb": {
+    "mtime": 1777982305.3464115,
+    "hash": "ba136d5b4b5f4421516bb7b4347bdc11"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260327000004_create_resource_tags.rb": {
+    "mtime": 1777982305.3464115,
+    "hash": "31cc6e64c967947a4eb3683e6f8f3551"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260327000005_add_status_to_resources.rb": {
+    "mtime": 1777982305.3464115,
+    "hash": "778a6486b6fafec881f956e373a785a4"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260327000006_add_code_language_to_posts.rb": {
+    "mtime": 1777982305.3464115,
+    "hash": "edfd132dbbe8220d362c84baafd0445d"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260327000007_add_code_to_comments.rb": {
+    "mtime": 1777982305.3474116,
+    "hash": "744b2d0f1da5bdc57fd97d3200367b69"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260330000001_add_mentor_help_requested_to_posts.rb": {
+    "mtime": 1777982305.3474116,
+    "hash": "728915f0025aaeb0e6319e1e135a879d"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260330000002_create_denylist_patterns.rb": {
+    "mtime": 1777982305.3474116,
+    "hash": "e786d34d5e54382d6e0d3d66d4715c9c"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260330000003_add_flagged_for_moderation_to_posts_and_comments.rb": {
+    "mtime": 1777982305.3474116,
+    "hash": "b640dbaedf41439ae3bf02e87c588447"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/migrate/20260412164047_add_ai_summary_to_posts.rb": {
+    "mtime": 1777982305.3474116,
+    "hash": "2881fb56ae3ec2e250b56b4b1340590a"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/db/queue_migrate/20260325000001_create_solid_queue_tables.rb": {
+    "mtime": 1777982305.3474116,
+    "hash": "25e5c08714108ba287d9c5218cace718"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/test_helper.rb": {
+    "mtime": 1777982305.350412,
+    "hash": "f51f2fc0654e53730d53644386a28bac"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/controllers/home_controller_test.rb": {
+    "mtime": 1777982305.3484116,
+    "hash": "ec7e5ef9403f43022198dc63e9d50625"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/models/bookmark_test.rb": {
+    "mtime": 1777982305.3494117,
+    "hash": "d473c0b2152b6445b7dd56f1b27739a7"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/models/comment_test.rb": {
+    "mtime": 1777982305.3494117,
+    "hash": "f98b3743c4aeab62e8907801413b03c3"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/models/conversation_participant_test.rb": {
+    "mtime": 1777982305.3494117,
+    "hash": "cff44db717bacd91889aa79ad2ce8957"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/models/conversation_test.rb": {
+    "mtime": 1777982305.3494117,
+    "hash": "6f89e4c394bde94d9dccebf3a679cabd"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/models/like_test.rb": {
+    "mtime": 1777982305.3494117,
+    "hash": "1c9e83e345da6dff7697ccb12ddf3551"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/models/message_test.rb": {
+    "mtime": 1777982305.3494117,
+    "hash": "cd5669496f6f7ffd69dafec0c66c347f"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/models/post_tag_test.rb": {
+    "mtime": 1777982305.3494117,
+    "hash": "ea59d1b5d4a9fd4107b09096b3c25165"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/models/post_test.rb": {
+    "mtime": 1777982305.350412,
+    "hash": "8b2c32c2dd8d0cc13f54675257dd346f"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/models/subject_test.rb": {
+    "mtime": 1777982305.350412,
+    "hash": "8bba44f2141bba2a0b1276e4fc964577"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/models/tag_test.rb": {
+    "mtime": 1777982305.350412,
+    "hash": "0e88586ffc097ba844ce2c085c1c2115"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/models/user_test.rb": {
+    "mtime": 1777982305.350412,
+    "hash": "820349c2f9e1ce8a06e6e5c991921cc5"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/CLAUDE.md": {
+    "mtime": 1777982305.3314102,
+    "hash": "cf30fc3d15ec6e6682536820fa7e97e0"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/README.md": {
+    "mtime": 1777982305.3314102,
+    "hash": "f2515da1d9587711381aa0f9043e45d6"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/bundler-audit.yml": {
+    "mtime": 1777982305.3444111,
+    "hash": "8e843418fffb17a42e188f6aa16ddfd7"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/cable.yml": {
+    "mtime": 1777982305.3444111,
+    "hash": "735a6f231692d91ac95d3ca6429f9156"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/cache.yml": {
+    "mtime": 1777982305.3444111,
+    "hash": "a2fa46bfccfb376ea34b2e63acfdbf4c"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/database.yml": {
+    "mtime": 1777982305.3444111,
+    "hash": "14f4ad5dd12e480e850969fa5c02ebea"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/deploy.yml": {
+    "mtime": 1777982305.3444111,
+    "hash": "16b418abbb37006dd0ee5361910ef68f"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/queue.yml": {
+    "mtime": 1777982305.3454113,
+    "hash": "c05f7e036b271ea1f7e24fa7dc39ba76"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/recurring.yml": {
+    "mtime": 1777982305.3454113,
+    "hash": "f51e6fc63f1e91806d743face2348007"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/storage.yml": {
+    "mtime": 1777982305.3454113,
+    "hash": "7108767d0978edddc1168cc6549fec65"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/locales/devise.en.yml": {
+    "mtime": 1777982305.3454113,
+    "hash": "8131df2d0832d1888ac483528e35e9e2"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/config/locales/en.yml": {
+    "mtime": 1777982305.3454113,
+    "hash": "02175ac35ea87bbf2d0d8e62831c4bce"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/public/400.html": {
+    "mtime": 1777982305.3484116,
+    "hash": "d316a7b3769cff7963f789aaf1516243"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/public/404.html": {
+    "mtime": 1777982305.3484116,
+    "hash": "335da87136f0163e19ce1eb655ee8b05"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/public/406-unsupported-browser.html": {
+    "mtime": 1777982305.3484116,
+    "hash": "c3e0a3bf8868c7ae12ad813f456dad86"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/public/422.html": {
+    "mtime": 1777982305.3484116,
+    "hash": "09de1f26ba9f60d2a61b211dd6182e92"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/public/500.html": {
+    "mtime": 1777982305.3484116,
+    "hash": "87d427a86bd974d203dcf4b6640f7265"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/public/robots.txt": {
+    "mtime": 1777982305.3484116,
+    "hash": "6363df73ea6632db60772abc7d2014d1"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/fixtures/bookmarks.yml": {
+    "mtime": 1777982305.3484116,
+    "hash": "c43d2702d66a0bbf4f3defe1e15b8bc9"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/fixtures/comments.yml": {
+    "mtime": 1777982305.3484116,
+    "hash": "180d41fe075cc301d1570d5642940b24"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/fixtures/conversation_participants.yml": {
+    "mtime": 1777982305.3494117,
+    "hash": "6f5354b796009d7b8f18f28e3d109681"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/fixtures/conversations.yml": {
+    "mtime": 1777982305.3494117,
+    "hash": "d44cec99cba10ee757b22fb999270859"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/fixtures/likes.yml": {
+    "mtime": 1777982305.3494117,
+    "hash": "c43d2702d66a0bbf4f3defe1e15b8bc9"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/fixtures/messages.yml": {
+    "mtime": 1777982305.3494117,
+    "hash": "d4a1fc6dc5834cb45c3f1f2b1e7dd129"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/fixtures/post_tags.yml": {
+    "mtime": 1777982305.3494117,
+    "hash": "678f05a2f62d1a712190fd8adf1ea80e"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/fixtures/posts.yml": {
+    "mtime": 1777982305.3494117,
+    "hash": "0073e530a99503d8fcd7ebf02a7621c8"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/fixtures/subjects.yml": {
+    "mtime": 1777982305.3494117,
+    "hash": "c8e2e8f87527515452430adcb11e7bc0"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/fixtures/tags.yml": {
+    "mtime": 1777982305.3494117,
+    "hash": "301cb9a7a0579f4608796be4b0a1ac27"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/test/fixtures/users.yml": {
+    "mtime": 1777982305.3494117,
+    "hash": "8a540d3fc2abc0ffa3a2b03841b43a4f"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/app/assets/images/icon.svg": {
+    "mtime": 1777982305.33241,
+    "hash": "4d7257ac9ae3fd9611a69212374acbe2"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/public/icon.png": {
+    "mtime": 1777982305.3484116,
+    "hash": "a437696465ac551d699c4171c4095dea"
+  },
+  "/home/mestryx/Workspace-Dokploy/Projet-Final---All-aboard/public/icon.svg": {
+    "mtime": 1777982305.3484116,
+    "hash": "4d7257ac9ae3fd9611a69212374acbe2"
+  }
+}

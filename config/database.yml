@@ -22,21 +22,19 @@ production:
   primary: &production_primary
     adapter: postgresql
     encoding: unicode
+    url: <%= ENV["DATABASE_URL"] %>
     pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-    database: studylink_production
-    username: studylink
-    password: <%= Rails.application.credentials.dig(:database, :password) %>
-    host: <%= ENV.fetch("DB_HOST", "studylink-db") %>
-    port: 5432
+    database: <%= ENV.fetch("DB_NAME", "studylink_production") %>
+    host: <%= ENV.fetch("DB_HOST", "localhost") %>
+    port: <%= ENV.fetch("DB_PORT", 5432) %>
+    username: <%= ENV.fetch("DB_USER", "postgres") %>
+    password: <%= ENV["DB_PASSWORD"] %>
   cache:
     <<: *production_primary
-    database: studylink_production_cache
     migrations_paths: db/cache_migrate
   queue:
     <<: *production_primary
-    database: studylink_production_queue
     migrations_paths: db/queue_migrate
   cable:
     <<: *production_primary
-    database: studylink_production_cable
     migrations_paths: db/cable_migrate
