@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
+# Ensure Rakefile / config are resolved from app root (e.g. docker exec with cwd /).
+Dir.chdir(File.expand_path("..", __dir__))
 APP_PATH = File.expand_path("../config/application", __dir__)
 require_relative "../config/boot"
 require "rails/commands"
