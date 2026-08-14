@@ -1,0 +1,36 @@
+# Projet-Final---All-aboard
+
+> Rails 8 peer-tutoring app (**StudyLink**): subject feed, real-time chat, mentors, admin. Rails 8.1 · SQLite3 · Solid Queue/Cache/Cable · Tailwind/Stimulus/Turbo · Devise auth · Docker/Kamal deploy. This repo is the THP final-project artifact (historical reference for All-Aboard).
+
+## Root
+
+- [README.md](README.md): Repository overview — setup, stack, run commands
+- [AGENTS.md](AGENTS.md): Agent guide — change protocol, stack summary, WorkSpace context
+- [CLAUDE.md](CLAUDE.md): Claude Code-oriented commands and project facts
+
+## App (Rails)
+
+- [app/models/](app/models/): ActiveRecord models — subjects, chats, mentors
+- [app/controllers/](app/controllers/): Controllers
+- [app/views/](app/views/): Views (Tailwind + Stimulus)
+- [app/channels/](app/channels/): Action Cable real-time chat channels
+- [app/jobs/](app/jobs/): Background jobs (Solid Queue)
+- [app/services/](app/services/): Service objects
+
+## Database
+
+- [db/schema.rb](db/schema.rb): Schema definition
+- [db/migrate/](db/migrate/): Migrations
+- [db/seeds.rb](db/seeds.rb): Seed data
+
+## Config & deploy
+
+- [config/routes.rb](config/routes.rb): Route definitions
+- [Gemfile](Gemfile): Ruby dependencies
+- [Dockerfile](Dockerfile): Container build
+- [.kamal/](.kamal/): Kamal deployment config
+
+## Optional
+
+- [test/](test/): Test suite (Rails tests)
+- [package.json](package.json): JavaScript dependencies
